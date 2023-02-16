@@ -1,1 +1,46 @@
+.container{
+	diplay: flex;
+	flex-direction: row;
+}
+.profile-main{
+	diplay: flex;
+	flex-direction: column;
+}
+.aboutme{
+	diplay: flex;
+	flex-direction: column;
+}
+
+
+.profile > img{
+	height: 150px;
+	width: 150px;
+}
+
+.profile{
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.skillcontainer {
+        background-color: lightblue;
+        width: 410px;
+        
+    }
+  
+    .skill {
+        background-color: darkcyan;
+        color: white;
+        padding: 1%;
+        
+    }
+  
+    .html {
+        width: 300px;
+    }
+  
+    .node {
+        width: 380px;
+    }
 
